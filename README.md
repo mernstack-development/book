@@ -1,1 +1,1 @@
-# book
+# Bookstore backend
