@@ -30,5 +30,60 @@ router.post('/addbook', async(req, res) => {
     }  
 })
 
+
+//Creating route for getting all data from database
+router.get('/viewbook', async(req, res) => {
+    try{
+        //getting all data query
+        const books = await Book.find();
+        //sendind data into JSON format
+        res.status(200).json(books)
+    }catch (error){
+        res.status(500).json( {"error":error} )
+    }
+})
+
+
+//fetchiing books by id
+router.get('/viewbook/:id', async(req, res) => {
+    try{
+        //getting all books by ID
+        const books = await Book.findById(req.params.id)
+        //sendind data into JSON format
+        res.status(200).json(books)
+    }catch (error){
+        res.status(500).json( {"error":error} )
+    }
+})
+
+
+//Updating data by ID
+router.put('/updatebook/:id', async(req, res) => {
+    try{
+        //getting all books by ID
+        const books = await Book.findByIdAndUpdate(
+            req.params.id,
+            req.body,
+            { new:true }
+        )
+        //sendind data into JSON format
+        res.status(200).json(books)
+    }catch (error){
+        res.status(500).json( {"error":error} )
+    }
+})
+
+//Deleting data from database
+router.delete('/deletebook/:id', async(req, res) => {
+    try{
+        const books = await Book.findByIdAndDelete(req.params.id)
+        //sendind data into JSON format
+        res.status(200).json(books)
+    }catch (error){
+        console.log(error)
+    }
+})
+
+
 //Exporting router module
 module.exports = router

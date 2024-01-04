@@ -1,0 +1,117 @@
+[{
+  "_id": {
+    "$oid": "6595ee9b3c71355829b2440b"
+  },
+  "book_name": "MERN First Book",
+  "book_author": "Satar Qaderzada",
+  "book_price": 233.99,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595ef043c71355829b2440d"
+  },
+  "book_name": "PHP MySQL Book Release 1",
+  "book_author": "Satar",
+  "book_price": 927.49,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595f1d4be9e6dfdb1fa5997"
+  },
+  "book_name": "PHP : web-ohjelmoinnin peruskirja",
+  "book_author": "Ari Rantala",
+  "book_price": 34.99,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595f1f7be9e6dfdb1fa599a"
+  },
+  "book_name": "PHP & MySQL : server-side web development",
+  "book_author": "on Duckett",
+  "book_price": 345.99,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595f227be9e6dfdb1fa599c"
+  },
+  "book_name": "Node.js : web-palveluiden ohjelmointi ",
+  "book_author": "Juha Peltomäki",
+  "book_price": 34.19,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595f263be9e6dfdb1fa599e"
+  },
+  "book_name": "React : Functional web development with React and Redux",
+  "book_author": "Alex Banks",
+  "book_price": 350,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6595f2f5be9e6dfdb1fa59a0"
+  },
+  "book_name": ".NET :  Verkkoviestinnän käsikirja ",
+  "book_author": "Markku Jussila",
+  "book_price": 425.69,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659667e0264d5c3bec691303"
+  },
+  "book_name": "PHP ja MySQL : tietokantapohjaiset verkkopalvelut",
+  "book_author": "Rami Heinisuo, Ilkka Rauta",
+  "book_price": 652.99,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6596689e264d5c3bec691305"
+  },
+  "book_name": "Avaruus : koululaisen ensyklopedia",
+  "book_author": "Heather Couper ja Nigel Henbest",
+  "book_price": 54.99,
+  "book_publish_date": {
+    "$date": "2024-03-31T21:00:00.000Z"
+  },
+  "book_status": "enable",
+  "__v": 0
+}]
