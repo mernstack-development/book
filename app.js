@@ -28,8 +28,3 @@ app.listen(port,() => {
     console.log(`Server is running on - http://localhost:${port}`)
 })
 
-
-
-// Complete video tutorial till end
-// https://www.youtube.com/watch?v=5Vl9zAI1qx0&t=1715s
-// Continue from: 46:38
